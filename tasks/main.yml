@@ -1,0 +1,19 @@
+---
+
+- name: install dependencies
+  yum: name={{item}} update_cache=yes
+  with_items:
+    - python-dateutil
+    - python-magic
+    - libselinux-python
+- name: install s3cmd
+  yum: name={{item}} update_cache=yes enablerepo=epel
+  with_items:
+    - s3cmd
+- name: set s3cfg
+  template: >
+    src=s3cfg.j2
+    dest="/root/.s3cfg"
+    owner="root"
+    group="root"
+    mode=0600

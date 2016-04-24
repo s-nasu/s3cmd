@@ -1,0 +1,8 @@
+s3cmd:
+  access_key:
+  secret_key: 
+  bucket_location: US
+  url: s3.amazonaws.com
+  signature_v2: False
+#  url: inter-st.gmocloud.com
+#  signature_v2: True

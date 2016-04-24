@@ -5,7 +5,7 @@ galaxy_info:
   author: Nasu Susumu
   company: Eggplant
   description: 'Scrit to setup s3cmd.  s3cmd is a command line tool and client for uploading, retrieving and managing data in Amazon S3(object storage).'
-  license: 'Unlicense (Public Domain)'
+  license: 'Unlicense'
   platforms:
     - name: EL
       versions: all

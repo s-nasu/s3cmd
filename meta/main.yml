@@ -9,8 +9,7 @@ galaxy_info:
   min_ansible_version: 1.9
   platforms:
     - name: EL
-     versions:
-       - 7
+      versions: 7
   categories:
     - web
     - cloud:ec2

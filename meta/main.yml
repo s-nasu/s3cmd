@@ -8,8 +8,9 @@ galaxy_info:
   license: 'Unlicense'
   min_ansible_version: 1.9
   platforms:
-    - name: EL
-      versions: 7
+  - name: EL
+    versions:
+      - 7
   galaxy_tags:
     - web
     - cloud:ec2

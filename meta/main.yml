@@ -6,9 +6,10 @@ galaxy_info:
   company: Eggplant
   description: 'Scrit to setup s3cmd.  s3cmd is a command line tool and client for uploading, retrieving and managing data in Amazon S3(object storage).'
   license: 'Unlicense'
+  min_ansible_version: 1.9
   platforms:
     - name: EL
-      versions: all
+      versions: 7.*
   categories:
     - web
     - cloud:ec2
